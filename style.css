@@ -1,0 +1,241 @@
+body {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .flex {
+        display: flex;
+        width: 100%;
+        height: 100ch;
+        margin-bottom: 10em;
+    }
+
+    .flex img {
+        width: 50%;
+        margin: auto;
+        display: flex;
+    }
+
+    .txt {
+        width: 75%;
+        text-align: center;
+        font-size: 30px;
+        color: #405A8D;
+        margin-top: 10;
+        padding: 12px;
+    }
+
+    .img {
+        padding: 20px;
+        background: linear-gradient(180deg, #E1FFFB 0%, rgba(159, 191, 255, 0.48) 100%);
+        width: 50%;
+        height: 100vh;
+    }
+
+    span {
+        font-size: 30px;
+        color: red;
+        margin: auto;
+    }
+
+
+    .form {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        display: flex;
+        /* margin-top: auto; */
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        /* padding: 100px; */
+    }
+
+    .text-container{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .form p {
+        width: 80%;
+        text-align: left;
+        font-size: 50px;
+        color: #405A8D;
+        margin-top: auto;
+    }
+
+    .flex input {
+        display: block;
+        padding: 15px 40px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        margin: auto;
+        outline: #405A8D;
+        width: 100%;
+        border: 1px solid #d6e1f6;
+        background-color: #d6e1f6;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    label {
+        color: #405A8D;
+        font-size: 25px;
+    }
+
+    .carrier p{
+        color: #405A8D;
+    }
+
+    .opt {
+        display: flex;
+        gap: 5px;
+    }
+
+    .opt input {
+        margin-top: 14px;
+        padding: 17px;
+    }
+
+    select {
+        margin-top: 10px;
+        padding: 10px;
+        height: 7vh;
+        justify-content: space-between;
+        border-radius: 10px;
+        border: 1px solid #d6e1f6;
+        background-color: #d6e1f6;
+    }
+
+    .flex button {
+        display: block;
+        padding: 13px 40px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        margin: auto;
+        outline: #405A8D;
+        width: 100%;
+        border: 1px solid #405A8D;
+        background-color: #405A8D;
+        margin-top: 10px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .carrier img {
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
+    .carrier p {
+        font: 600px;
+        font-size: 20px;
+    }
+
+    .carrier {
+        width: 80%;
+        /* padding: 100px; */
+        margin: auto;
+        /* display: none; */
+    }
+
+    .carrier {
+        /* margin-bottom: 20px; */
+        display: none;
+    }
+
+    .split {
+        display: flex;
+        /* justify-content: ; */
+        gap: 15px;
+
+    }
+
+    .carrier input {
+        width: 80%;
+        padding: 20px 20px;
+        background: rgba(225, 255, 251, 0.27);
+        border: 1px solid rgba(64, 90, 141, 0.18);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .carrier button {
+        width: 100%;
+        background-color: #405A8D;
+        border: 1px solid #405A8D;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+
+    @media only screen and (max-width:1000px) {
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            overflow: scroll;
+            margin: auto;
+        }
+
+        .flex {
+            display: block;
+            padding: 0;
+            width: 100%;
+            margin-bottom: 50em;
+            height: 100vh;
+        }
+
+        .txt {
+            width: 70%;
+            margin: auto;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+        .split{
+            gap: 2px;
+          
+        }
+
+        .carrier {
+            width: 80%;
+/* 
+            margin-top: 40em; */
+          
+        }
+
+        .carrier input {
+            width: 80%;
+        }
+
+        .carrier button {
+            width: 100%;
+        }
+    }

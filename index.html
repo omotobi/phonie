@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <div class="flex">
+            <div class="img">
+                <p class="txt">Identify the telecom carrier of your telephone with just a <span>click!</span>.....</p>
+
+                <img src="./Assets/business-3d-three-young-women-with-phones.png" alt="">
+            </div>
+            <div class="form">
+                <div class="container">
+                    <div class="text-container">
+    
+                        <p id="name">Welcome to Phonie App!</p>
+                    </div>
+                    <form id="main-form">
+                        <label>Type in your Name</label>
+                        <input type="text" name="" placeholder="Duane Batey" id="name-input" required>
+                        <label>Type in your email address</label>
+                        <input type="email" name="" placeholder="duane121@gmail.com" required>
+                        <label>Type in your phone number</label>
+                        <div class="opt">
+                            <select>
+                                <option>+234</option>
+                                <option>+233</option>
+                                <option>+235</option>
+                                <option>+236</option>
+                            </select>
+                            <input type="tel" id="number" required>
+                        </div>
+                        <button onclick="check()">Submit</button>
+                    </form>
+
+                    <form id="9mobile" class="carrier">
+                        <p>Your Telephone Carrier is 9mobile</p>
+                        <!-- <h1 id="name"></h1> -->
+                        <div class="split">
+                            <img src="./Assets/9m.jpeg" alt="">
+                            <input type="tel" placeholder="08176036620" id="9mobileinput">
+                        </div>
+                        <button onclick="">Reset</button>
+                    </form>
+
+                    <form id="airtel" class="carrier">
+                        <!-- <h1 id="name"></h1> -->
+                        <p>Your Telephone Carrier is airtel</p>
+                        <div class="split">
+                            <img src="./Assets/airtel.png" alt="">
+                            <input type="tel" placeholder="08028832579" id="airtelinput">
+                        </div>
+                        <button>Reset</button>
+                    </form>
+
+                    <form id="glo" class="carrier">
+                        <!-- <h1 id="name"></h1> -->
+                        <p>Your Telephone Carrier is GLO</p>
+                        <div class="split">
+                            <img src="./Assets/glo.jpeg" alt="">
+                            <input type="tel" placeholder="0917867545" id="gloinput">
+                        </div>
+                        <button>Reset</button>
+                    </form>
+
+                    <form id="mtn" class="carrier">
+                        <p>Your Telephone Carrier is MTN</p>
+                        <div class="split">
+                            <img src="./Assets/mtn.png" alt="">
+                            <input type="tel" placeholder="08138110415" id="mtninput">
+                        </div>
+                        <button>Reset</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
