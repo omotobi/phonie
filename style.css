@@ -115,9 +115,9 @@ body {
     }
 
     select {
-        margin-top: 10px;
+        margin: auto;
         padding: 10px;
-        height: 7vh;
+        height: 6vh;
         justify-content: space-between;
         border-radius: 10px;
         border: 1px solid #d6e1f6;
